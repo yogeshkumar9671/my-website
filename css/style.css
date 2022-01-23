@@ -289,14 +289,15 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
      display: grid;
  }
 #background-video {
-    width: 100vw;
+    width: 100%;
+/*    width: 100vw;  */
 /*     height: 100vh; */
-    height: auto;
+ /*   height: auto;     */
+    height: 100%;
     object-fit: cover;
     position: fixed;
     left: 0;
     right: 0;
-    /* top: 27px; */
     top: 0;
     bottom: 0;
     z-index: -1;
