@@ -221,6 +221,9 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         position: static;
         padding: 0px 50px;
     }
+        header .navbar ul li:hover .sub-menu-1 ul li a {
+        border: 1px solid #fff;
+    }
 }
 
 @media screen and (max-width: 400px) and (min-width: 100px) {
@@ -266,6 +269,9 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     header .navbar ul li:hover .sub-menu-1 {
         position: static;
         padding: 0px 30px;
+    }
+        header .navbar ul li:hover .sub-menu-1 ul li a {
+        border: 1px solid #fff;
     }
     header .icons .fab-icons {
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
