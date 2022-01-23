@@ -198,7 +198,7 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         left: 0;
         right: 0;
         padding-top: 0;
-        background: #262626;
+/*         background: #262626; */
         color: #fff;
         clip-path: polygon( 0 0, 100% 0, 100% 0, 0 0);
     }
@@ -247,7 +247,7 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         left: 0;
         right: 0;
         padding-top: 0;
-        background: #262626;
+/*         background: #262626; */
         color: #fff;
         clip-path: polygon( 0 0, 100% 0, 100% 0, 0 0);
     }
@@ -290,7 +290,8 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
  }
 #background-video {
     width: 100vw;
-    height: 100vh;
+/*     height: 100vh; */
+    height: auto;
     object-fit: cover;
     position: fixed;
     left: 0;
