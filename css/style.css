@@ -9,6 +9,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
+    background: back;
 }
 
 header {
@@ -20,8 +21,8 @@ header {
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 0 0.5rem 1.5rem rgba(252, 251, 251, 0.1);
-    background-color: black;
+/*     box-shadow: 0 0.5rem 1.5rem rgba(252, 251, 251, 0.1); */
+/*     background-color: black; */
 }
 
 header #logo {
@@ -41,7 +42,7 @@ header #logo .logo img {
 
 header .navbar {
     display: flex;
-    padding-top: 18px;
+    padding-top: 27px;
     padding-bottom: 0;
     margin-bottom: 0;
 }
