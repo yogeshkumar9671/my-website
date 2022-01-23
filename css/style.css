@@ -9,7 +9,7 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-}
+} 
 
 header {
     position: fixed;
@@ -293,7 +293,7 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
      display: grid;
  }
 #background-video {
-    width: 100%;
+    width: 100vw;
 /*    width: 100vw;  */
 /*     height: 100vh; */
  /*   height: 100%;     */
