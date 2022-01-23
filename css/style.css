@@ -9,7 +9,6 @@
     box-sizing: border-box;
     outline: none;
     border: none;
-    background: back;
 }
 
 header {
@@ -285,7 +284,8 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
 
  /* ----------------------content---------------- */
  body{
-     background-color: #464545;
+/*      background-color: #464545; */
+     background: black;
      display: grid;
  }
 
