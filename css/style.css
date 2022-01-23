@@ -141,7 +141,7 @@ header .navbar ul li:hover .sub-menu-1 ul li {
 
 header .navbar ul li:hover .sub-menu-1 ul li a {
     margin-top: 9px;
-    border: 1px solid #fff;
+/*     border: 1px solid #fff; */
     width: 100%;
 }
 
