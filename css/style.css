@@ -288,8 +288,21 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
      background: black;
      display: grid;
  }
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    /* top: 27px; */
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
 
  .main{
+     visibility: hidden;
      margin-top: 128px;
      display: flex;
      justify-content: center;
