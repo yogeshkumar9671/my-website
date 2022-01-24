@@ -292,15 +292,11 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
 
  /* ----------------------content---------------- */
  body{
-/*      background-color: #464545; */
      background: black;
      display: grid;
  }
 #background-video {
     width: 100vw;
-/*    width: 100vw;  */
-/*     height: 100vh; */
- /*   height: 100%;     */
     height: auto;
     object-fit: cover;
     position: fixed;
