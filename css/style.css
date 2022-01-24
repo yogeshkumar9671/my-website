@@ -349,7 +349,6 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     padding-right: 0;
     margin-right: 0;
     width: 200px;
-    border: 1px solid white;
 }
 .footer .footer-left .left-box {
     display: inline-block;
@@ -418,6 +417,18 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     padding-top: 20px;
 }
 
+@media screen and ( min-width: 600px) {
+    .footer .footer-left {
+        flex: 0 0px;
+    }
+    .footer .footer-right>* {
+        flex: 1;
+    }
+    .footer .footer-right {
+        flex: 2 0px;
+    }
+} 
+
 @media screen and (max-width:1440px) and (min-width: 990px){
     .footer .footer-left {
         padding-left: 25px;
@@ -429,15 +440,9 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
 @media screen and (max-width: 990px) and (min-width: 600px) {
     .footer .footer-left {
         padding-left: 0;
-        flex: 0 0px;
-    }
-    .footer .footer-right>* {
-        flex: 1;
     }
     .footer .footer-right{
         margin-left: 55px;
-        flex: 2 0px;
-
     }
 }
 
@@ -456,3 +461,4 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         margin-top: 30px;
     }
 }
+
