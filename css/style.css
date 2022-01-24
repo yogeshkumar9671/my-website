@@ -224,10 +224,6 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         header .navbar ul li:hover .sub-menu-1 ul li a {
         border: 1px solid #fff;
     }
-    #background-video {
-        width: 100%;
-        height: auto;
-    } 
 }
 
 @media screen and (max-width: 400px) and (min-width: 100px) {
@@ -283,10 +279,6 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     header .icons .fab-icons.active {
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
     }
-    #background-video {
-        width: 100%;
-        height: auto;
-    } 
 }
 
 
@@ -305,6 +297,12 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     top: 0;
     bottom: 0;
     z-index: -1;
+}
+@media screen and (max-width: 500px) and (min-width: 100px) {
+    #background-video {
+    width: 100%;
+    height: auto;
+    }
 }
 
  .main{
