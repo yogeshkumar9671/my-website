@@ -280,7 +280,11 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
     }
     #background-video {
-    top: 30px;
+    position: fixed;
+    left: 30px;
+    right: 0;
+    top: 0;
+    bottom: 0;
     }
 }
 
