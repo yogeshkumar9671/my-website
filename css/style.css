@@ -97,6 +97,10 @@ header .icons .fab-icons a {
     text-decoration: none;
 }
 
+header .navbar ul li {
+    position: relative;
+}
+
 header .navbar ul li a:hover {
     position: relative;
     color: white;
@@ -124,7 +128,9 @@ header .icons .fab-icons #youtube:hover {
 
 header .navbar ul li:hover .sub-menu-1 {
     display: block;
+    width: 200px;
     position: absolute;
+    left: -53px;
     padding-right: 8px;
     text-align: center;
     padding-bottom: 10px;
