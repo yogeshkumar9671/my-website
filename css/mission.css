@@ -1,0 +1,111 @@
+.mission_container {
+    position: relative;
+    height: 100vh;
+    /* background: teal; */
+    position: relative;
+}
+
+.mission_container .background {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* position: relative; */
+}
+
+.mission_container .background::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mission_container .background.one {
+    background-image: url(../img/dark_drone.png);
+}
+
+.mission_container .background.two {
+    background-image: url(../img/drone1.jpg);
+}
+
+.mission_container .background.three {
+    background-image: url(../img/drone2.jpg);
+    /* background-position : x-exis, y-exis */
+    background-position: 45% center;
+}
+
+.mission_container .background.four {
+    background-image: url(../img/sunset_img.png);
+}
+
+.mission_container .bottom_content {
+    position: absolute;
+    bottom: 10%;
+    left: 1.5rem;
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 1s, transform 1s;
+}
+
+.mission_container .bottom_content .bottom_content_header {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0 0 1rem left auto;
+    font-weight: 600;
+}
+
+.mission_container .bottom_content .bottom_content_sub_header {
+    font-size: 1rem;
+}
+
+.mission_container .bottom_content .content_button {
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin-top: 1rem;
+}
+
+.mission_container .bottom_content .content_button .text {
+    font-weight: bold;
+    font-size: .8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 1.2rem 2.5rem;
+    transition: color 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    /* color: black; */
+}
+
+.mission_container .bottom_content .content_button .hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* scale3d will take three parameters first will be for x exis second one will be for y-exis and the last one is for z exis */
+    transform: scale3d(1, 0, 1);
+    transform-origin: top center;
+    transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.mission_container .bottom_content .content_button:hover .hover {
+    transform: scale3d(1, 1, 1);
+    transform-origin: bottom center;
+}
+
+.mission_container .bottom_content .content_button:hover .text {
+    color: black;
+}
+
+.mission_container.on_screen .bottom_content {
+    opacity: 1;
+    transform: translateY(0);
+}
