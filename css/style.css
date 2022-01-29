@@ -53,6 +53,12 @@ header .navbar ul {
 
 header .navbar ul li {
     display: inline-block;
+    position: relative;
+}
+header .navbar ul li .fa-angle-double-down {
+    display:  none;
+    color: white;
+    font-size: 18px;
 }
 
 header .navbar ul li a {
@@ -97,9 +103,6 @@ header .icons .fab-icons a {
     text-decoration: none;
 }
 
-header .navbar ul li {
-    position: relative;
-}
 
 header .navbar ul li a:hover {
     position: relative;
@@ -213,24 +216,42 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         background: black;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+
+
     header .navbar ul li {
-        width: 100%;
-    }
-    header .navbar ul li a {
         display: block;
+        position: relative;
+        width: 100%;
+        margin-top: 7px;
         text-align: center;
-        padding: .6rem 1.5rem;
-/*         border-bottom: .1px solid #fff; */
     }
+    header .navbar ul li a{
+        text-align: center;
+        position: relative;
+    }
+    header .navbar ul li .fa-angle-double-down {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 120px;
+    }
+
     header .navbar ul li a:hover {
         font-size: 1.2rem;
     }
     header .navbar ul li:hover .sub-menu-1 {
         position: static;
         padding: 0px 50px;
+        width: 100%;
+    }
+    header .navbar ul li:hover .sub-menu-1 ul li{
+        margin-top: 0;
     }
         header .navbar ul li:hover .sub-menu-1 ul li a {
         border: 1px solid #fff;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
     }
 }
 
@@ -263,24 +284,41 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
         background: black;
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
+        
     header .navbar ul li {
-        width: 100%;
-    }
-    header .navbar ul li a {
         display: block;
+        position: relative;
+        width: 100%;
+        margin-top: 7px;
         text-align: center;
-        padding: .6rem 1.5rem;
-/*         border-bottom: .1px solid #fff; */
     }
+    header .navbar ul li a{
+        text-align: center;
+        position: relative;
+    }
+    header .navbar ul li .fa-angle-double-down {
+        display: inline-block;
+        position: absolute;
+        top: 5px;
+        left: 60px;
+    }
+
     header .navbar ul li a:hover {
         font-size: 1.2rem;
     }
     header .navbar ul li:hover .sub-menu-1 {
         position: static;
         padding: 0px 30px;
+        width: 100%;
+    }
+    header .navbar ul li:hover .sub-menu-1 ul li{
+        margin-top: 0;
     }
         header .navbar ul li:hover .sub-menu-1 ul li a {
         border: 1px solid #fff;
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
     }
     header .icons .fab-icons {
         clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
