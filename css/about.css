@@ -3,7 +3,7 @@
     height: 100vh;
 }
 
-.box_container .about_bottom{
+.box_container .about_bottom {
     position: absolute;
     top: 20%;
     left: 10%;
@@ -20,7 +20,7 @@
     transform: translateY(0);
 }
 
-.box_container .about_bottom .about_content{
+.box_container .about_bottom .about_content {
     padding: 20PX;
     color: black;
     font-size: 15px;
@@ -29,12 +29,11 @@
     text-align: left;
     text-transform: none;
     background-color: rgba(255, 255, 255, 0.9);
-
 }
 
-.box_container .about_bottom .about_mission{
+.box_container .about_bottom .about_mission {
     color: black;
-    font-family: montserrat,sans-serif;
+    font-family: montserrat, sans-serif;
     text-align: center;
     text-transform: none;
     margin-top: 50px;
@@ -43,119 +42,121 @@
 .box_container .about_bottom .about_mission .vision .header,
 .box_container .about_bottom .about_mission .vision .content,
 .box_container .about_bottom .about_mission .mission .header,
-.box_container .about_bottom .about_mission .mission .content{
-    font-family: montserrat,sans-serif;
+.box_container .about_bottom .about_mission .mission .content {
+    font-family: montserrat, sans-serif;
     font-weight: 600;
 }
 
-.box_container .about_bottom .about_mission .col-md-6{
+.box_container .about_bottom .about_mission .col-md-6 {
     padding-bottom: 20px;
 }
-.box_container .about_bottom .about_mission .col-md-6 .vision{
+
+.box_container .about_bottom .about_mission .col-md-6 .vision {
     padding: 0 20px 20px 20px;
     background-color: rgba(255, 255, 255, 0.9);
 }
-.box_container .about_bottom .about_mission .col-md-6 .vision .header{
-    font-family: montserrat,sans-serif;
+
+.box_container .about_bottom .about_mission .col-md-6 .vision .header {
+    font-family: montserrat, sans-serif;
     font-weight: 600;
     padding-top: 10px;
     margin-bottom: 50px;
 }
 
-.box_container .about_bottom .about_mission .col-md-6 .mission{
+.box_container .about_bottom .about_mission .col-md-6 .mission {
     padding: 0 20px 20px 20px;
     background-color: rgba(255, 255, 255, 0.9);
 }
-.box_container .about_bottom .about_mission .col-md-6 .mission .header{
+
+.box_container .about_bottom .about_mission .col-md-6 .mission .header {
     margin-bottom: 50px;
     padding-top: 10px;
-
 }
-
 
 
 /* media query */
 
-@media screen and (max-width: 991px) and (min-width: 768px){
+@media screen and (max-width: 991px) and (min-width: 768px) {
     .box_container {
         position: relative;
         height: 100vh;
-        margin-bottom: 200px;    
+        margin-bottom: 200px;
     }
 }
 
-
-@media screen and (max-width: 767px) and (min-width: 601px){
+@media screen and (max-width: 767px) and (min-width: 601px) {
     .box_container {
         position: relative;
         height: 100vh;
-        margin-bottom: 285px;    
+        margin-bottom: 285px;
     }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 15%;
     }
 }
 
-
-@media screen and (max-width: 600px) and (min-width: 501px){
+@media screen and (max-width: 600px) and (min-width: 501px) {
     .box_container {
         position: relative;
         height: 100vh;
-        margin-bottom: 455px;    
+        margin-bottom: 455px;
     }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 15%;
     }
 }
-@media screen and (max-width: 500px) and (min-width: 414px){
+
+@media screen and (max-width: 500px) and (min-width: 414px) {
     .box_container {
         position: relative;
         height: 150vh;
-        margin-bottom: 243px;    
+        margin-bottom: 243px;
     }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 10%;
     }
 }
 
+@media screen and (max-width: 413px) and (min-width: 398px) {
+    .box_container {
+        position: relative;
+        height: 150vh;
+        margin-bottom: 265px;
+    }
+    .box_container .about_bottom {
+        top: 10%;
+    }
+}
 
-@media screen and (max-width: 413px) and (min-width: 398px){
+@media screen and (max-width: 397px) and (min-width: 390px) {
     .box_container {
         position: relative;
         height: 150vh;
-        margin-bottom: 265px;    
+        margin-bottom: 285px;
     }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 10%;
     }
 }
-@media screen and (max-width: 397px) and (min-width: 390px){
+
+@media screen and (max-width: 389px) and (min-width: 375px) {
     .box_container {
         position: relative;
         height: 150vh;
-        margin-bottom: 285px;    
+        margin-bottom: 329px;
     }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 10%;
     }
 }
-@media screen and (max-width: 389px) and (min-width: 375px){
+
+@media screen and (max-width: 374px) and (min-width: 360px) {
     .box_container {
         position: relative;
         height: 150vh;
-        margin-bottom: 329px;    
+        margin-bottom: 393px;
     }
-    .box_container .about_bottom{
-        top: 10%;
-    }
-}
-@media screen and (max-width: 374px) and (min-width: 360px){
-    .box_container {
-        position: relative;
-        height: 150vh;
-        margin-bottom: 393px;    
-    }
-    .box_container .about_bottom{
+    .box_container .about_bottom {
         top: 10%;
     }
 }
