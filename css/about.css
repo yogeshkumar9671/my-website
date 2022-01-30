@@ -240,7 +240,8 @@
 
 .awards .box_1 h1{
     text-align: center; 
-    color: black; 
+/*     color: black;  */
+    color: #fff;
     margin-bottom: 70px; 
 }
 
@@ -279,5 +280,6 @@
 } 
 
 .awards .container_box .card .card-body .card-text{
-   color: black
+/*    color: black */
+    color: #fff;
 } 
