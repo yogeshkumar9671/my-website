@@ -283,3 +283,32 @@
 /*    color: black */
     color: #fff;
 } 
+
+
+
+
+
+
+
+/* ---------------------------------------------------satisfactory letters------------------------------------- */
+
+.letters{
+    margin-top: 75px;
+    display: inline-block;
+}
+.letters .box_1 h1{
+    text-align: center; 
+    color: #fff; 
+    margin-bottom: 70px; 
+}
+.letters .container_box{
+    display: flex; 
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-evenly; 
+} 
+
+.letters .container_box .card{
+    text-align: center; 
+    margin-bottom: 30px;
+}
