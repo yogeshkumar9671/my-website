@@ -21,29 +21,29 @@
 }
 
 .box_container .background.one {
-    background-image: url(../img/mapping.jpeg);
+    background-image: url(../img/industry/mapping.jpeg);
 }
 
 .box_container .background.two {
-    background-image: url(../img/agriculture.jpg);
+    background-image: url(../img/industry/agriculture.jpg);
 }
 
 .box_container .background.three {
-    background-image: url(../img/survey.jpg);
+    background-image: url(../img/industry/survey.jpg);
 }
 
 .box_container .background.four {
-    background-image: url(../img/military.jpg);
+    background-image: url(../img/industry/military.jpg);
     /* background-position : x-exis, y-exis */
     /* background-position: 45% center; */
 }
 
 .box_container .background.five {
-    background-image: url(../img/security1.png);
+    background-image: url(../img/industry/security1.png);
 }
 
 .box_container .background.six {
-    background-image: url(../img/cinema.jpg);
+    background-image: url(../img/industry/cinema.jpg);
 }
 
 .box_container .bottom_content {
