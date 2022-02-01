@@ -355,7 +355,7 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     z-index: -1;
 } */
 
-@media screen and (max-width: 500px) and (min-width: 100px) {
+@media screen and (max-width: 1440px) and (min-width: 100px) {
     #background-video {
     width: 100%;
     height: auto;
