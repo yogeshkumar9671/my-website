@@ -335,6 +335,15 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
      display: grid;
  }
 #background-video {
+    width: 100%;
+    /* height: auto; */
+    height: 100vh;
+    object-fit: cover;
+    /* position: fixed; */
+    z-index: -10;
+}
+
+/* #background-video {
     width: 100vw;
     height: auto;
     object-fit: cover;
@@ -344,7 +353,8 @@ header .navbar ul li:hover .sub-menu-1 ul li a {
     top: 0;
     bottom: 0;
     z-index: -1;
-}
+} */
+
 @media screen and (max-width: 500px) and (min-width: 100px) {
     #background-video {
     width: 100%;
