@@ -15,17 +15,13 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    
+    <!-- wiper js cdn link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 
 </head>
 
@@ -87,8 +83,57 @@
     </video>
     
  
-    <div class="main">content</div>
-    <div class="left-section"></div>
+    <!-- latest Updates -->
+    <h1 class="update">Latest Updates</h1>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div>
+                    <a href="https://www.johnnette.com/news-and-media"
+                        style="width: 100%; height: 100%; display: inline-block;">
+                        <div class="card"
+                            style="background-image: url(https://i0.wp.com/www.suasnews.com/wp-content/uploads/2021/12/Lt-Cdr-John-Livingstone-CEO-Johnnette-Technologies-with-Rajiv-Vermani-Director-and-CEO-Digital-and-AutomationHardcastle-Petrofer.jpeg?w=399&ssl=1); background-repeat: no-repeat; background-size: cover; width: 300px; height: 200px;">
+                            <p class="card-text">
+                                Lt-Cdr-John-Livingstone-CEO-Johnnette-Technologies-with-Rajiv-Vermani-Director-and-CEO-Dig
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <a href="https://www.johnnette.com/news-and-media"
+                        style="width: 100%; height: 100%; display: inline-block;">
+                        <div class="card"
+                            style="background-image: url(https://static.wixstatic.com/media/80f540_ec321de1dd3e4d889a48ca7fcd9bfd84~mv2.png/v1/fill/w_228,h_96,al_c,q_85,usm_0.66_1.00_0.01/80f540_ec321de1dd3e4d889a48ca7fcd9bfd84~mv2.webp); background-repeat: no-repeat; background-size: 100% auto; width: 300px; height: 200px;">
+                            <p class="card-text" style="height: 75px; padding-top: 10px;">Ghanian Company to start Drone
+                                Pilot Training</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <a href="https://www.johnnette.com/news-and-media"
+                        style="width: 100%; height: 100%; display: inline-block;">
+                        <div class="card"
+                            style="background-image: url(https://static.wixstatic.com/media/80f540_18640163295f4d1c85cd29c5cc0bc0ad~mv2.jpg/v1/fill/w_228,h_96,al_c,q_80,usm_0.66_1.00_0.01/80f540_18640163295f4d1c85cd29c5cc0bc0ad~mv2.webp); background-repeat: no-repeat; background-size: 100% auto; width: 300px; height: 200px;">
+                            <p class="card-text" style="height: 75px; padding-top: 10px;">Drone market</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next" style="color: white;"></div>
+        <div class="swiper-button-prev" style="color: white;"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="see_more">
+        <a href="https://www.johnnette.com/news-and-media" style="color:#fff; text-decoration: none;"
+            class="btn btn-success">See More Updates</a>
+    </div>
+
 
 
      <footer class="footer">
@@ -146,6 +191,9 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
